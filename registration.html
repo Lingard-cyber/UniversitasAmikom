@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Universitas Amikom Yogyakarta</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="registration-styles.css">
+</head>
+<body>
+    <main class="d-flex justify-content-center" ng-controller="FormDaftarController" style="position: relative; top: 3rem;">
+        <div class="shadow-lg p-5 mb-5 rounded w-50 mt-5" style="background-color: rgb(57, 36, 103);">
+            <img src="file:///D:/Html/Final%20Project/PPW_3013/Asset%20Svg/Logo%20Alternative%20One%20Color%20-%20Yellow%20-%20Horizontal.svg" alt="logo" class="mx-auto d-block">
+            <form class="w-50 mx-auto d-block text-white">
+                <div class="form-group mt-5">
+                    <label for="inputUsername">Username</label>
+                    <input type="email" class="form-control" id="inputUsername"  placeholder="Enter Username">
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail">Email address</label>
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-warning mx-auto d-block w-100">Daftar</button>
+            </form>
+            <div class="text-center mt-2">
+                <a href="login.html">Sudah Punya Akun?</a>
+            </div>
+            <div>
+                <a href="pmb-navbar.html" style="color: rgb(255, 172,0);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-skip-backward" viewBox="0 0 16 16">
+                        <path d="M.5 3.5A.5.5 0 0 1 1 4v3.248l6.267-3.636c.52-.302 1.233.043 1.233.696v2.94l6.267-3.636c.52-.302 1.233.043 1.233.696v7.384c0 .653-.713.998-1.233.696L8.5 8.752v2.94c0 .653-.713.998-1.233.696L1 8.752V12a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5m7 1.133L1.696 8 7.5 11.367zm7.5 0L9.196 8 15 11.367z"/>
+                      </svg>
+                      <span style="position: relative; top: 2px; size: 7pt;">Sebelumnya</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>

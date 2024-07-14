@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>About Us</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body style="background: linear-gradient(rgb(57, 36, 103),rgb(184, 151, 255));">
+  <header>
+    <nav class="Boxx" style="background-color: transparent; display: flex;">
+      <div>
+        <img src="Asset Svg/Logo Alternative One Color - Yellow - Horizontal.svg" alt="University amikom yogyakarta Logo" height="40"; class="rumah"  style="position: relative; left: 2rem; top: 1rem;">
+      </div>
+      <div style="position: relative; left: 65rem; color: black;">
+        <ul class="list1">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="pmb-navbar.html">PMB</a>
+          </li>
+          <li>
+            <a href="kontak.html">Contact</a>
+          </li>
+          <li>
+            <a href="slide.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+</header>
+  <div style="position: relative; left: 3rem; top: 11rem;">
+    <h4 style="color: rgb(255, 255, 255);"> <b>Biodata</b></h4>
+    <h5 style="color: rgb(255, 255, 255);" >Web Developer</h5>
+    <h5 style="color: yellow;"><b> "Amikom Creative Economy Park"</b> </h5>
+    <h5 style="color: rgb(255, 255, 255);"> <b>23 mai 2024 s/d 30 Juli 2024</b></h5>
+  </div>    
+  <div style="position: relative; left: 12rem; bottom: 10rem;">
+    <div class="carousel" style="position: relative; left: 3rem;">
+      <div class="carousel-item">
+        <img src="1x/1x/Artboard 1.png" alt="ikyy" style="border-radius: 10px;">
+      </div>
+      <div class="carousel-item">
+        <img src="1x/delphi.png" alt="ikyy" style="border-radius: 10px;">
+      </div>
+      <div class="carousel-item">
+        <img src="1x/layan.png" alt="ikyy" style="border-radius: 10px;">
+      </div>
+      <div class="carousel-item">
+        <img src="1x/Artboard 1.png" alt="ikyy" style="border-radius: 10px;">
+      </div>
+  </div>   
+  </div>
+  
+
+</div>
+   
+    
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          padding: 200
+      });
+      autoplay();
+      function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 4500);
+      }
+      });
+</script>
+</body>
+</html>

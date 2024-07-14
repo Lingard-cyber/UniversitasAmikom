@@ -1,0 +1,48 @@
+.berita-container{
+    padding: 2ream;
+    margin: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    color: black;
+    margin-top: 50pt;
+
+}
+
+.berita-utama{
+    display: flex;
+    flex: 1px;
+    gap: 4px;
+}
+.sub-berita{
+   right: 20rem;
+   font-size: 11pt;
+    
+}
+.vertical {
+    border-left: 1px solid rgb(198, 197, 197);
+    height: 15px;
+    margin-left: 0.5rem;
+}
+.berita-Utama1{
+    margin-left: 0.6rem;
+    margin-right: 1rem;
+    position: relative;
+    bottom: 3px;
+}
+.hr-position{
+    bottom: 3rem;
+}
+.body{
+    padding-right: 7rem;
+}
+.date1{
+    position: relative;
+    bottom: 1rem;
+    fill: aliceblue;}
+.date1 path{
+    fill: rgb(177, 177, 177);
+}
+.text{
+    padding-right: 5rem;
+}

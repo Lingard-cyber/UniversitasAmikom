@@ -1,0 +1,53 @@
+
+
+.hero {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Overlay with transparency */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+
+    text-align: center;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.content a {
+    font-size: 18px;
+    color: #5c2d91;
+    text-decoration: none;
+}

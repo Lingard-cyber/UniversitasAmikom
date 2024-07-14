@@ -1,0 +1,22 @@
+
+.carousel .carousel-item {
+	width: 400px;
+	height: 271px;
+	box-shadow: 0 0 40px #61dafb, 0 0 40px #61dafb, 0 0 40px #61dafb;
+	animation: animate 2s infinite alternate;
+	border-radius: 15px;
+}
+
+
+@keyframes animate {
+    to {
+      box-shadow: 0 0 50px #61dafb, 0 0 50px #61dafb, 0 0 50px #61dafb;
+    }
+  }
+.flexs{
+	display: flex;
+}
+body{
+	font-family: Arial, sans-serif;
+}
+

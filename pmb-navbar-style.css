@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #d80027;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d80027 !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #d80027;
+    color: #ffffff;
+}
+.body {
+    background-color: aliceblue;
+    background-image: url('path/to/your/background.jpg');
+    background-size: auto;
+}
+.rounded-box {
+    text-align: center;
+    font-style: arial;
+    width: 98%;
+    height: 100%;
+    border-radius: 5px; 
+    padding: 50px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.telp{
+    position: relative;
+    left: 10px;
+}
+.icon{
+    position: center;
+    top: 15px;
+
+}
+.fax{
+    position: relative;
+    bottom: 10px;
+}
+.amikom{
+    border-radius: 5px; 
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    position: center;
+    padding: 25px;
+    left: 3rem;
+}
+.amikom2{
+    border-radius: 5px; 
+    padding: 15px;
+    position: center;
+    left: 1rem;
+    width: 100%;
+}
+.contact1{
+    display: flex;
+    border-spacing: 3rem;
+    padding-left: 3rem;
+    content: normal;
+}
+.amikom3 {
+    border-radius: 5px; 
+    padding: 25px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    position: center;
+    left: 3rem;
+}
+.amikom4 {
+    border-radius: 5px; 
+    padding: 8px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    position: center;
+    left: 3rem;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rounded-box1 {
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.contacts {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.contact {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    width: 270px;
+    height: 350px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+.contact2 {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 50px;
+    width: 270px;
+    height: 280px;
+    display: inline-block;
+    transition: transform 0.2s;
+
+}
+.contact:hover {
+    transform: scale(1.05);
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.details h6 {
+    margin: 5px 0;
+    color: #666;
+}
+
+.instagram {
+    background-color: #ffffff;
+}
+
